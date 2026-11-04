@@ -28,6 +28,7 @@
         .title, .home, .store, .about, .help, .contact {
             color: green;
             align-content: center;
+            margin-right: auto;
         }
         .title {
             margin-left: 20px;
@@ -35,35 +36,44 @@
             font-size: 2rem;
             font-family: Over the Rainbow;
         }
-        .home {
-            margin-right: auto;
+            /*image*/
+        #image {
+            width: auto;
+            height: 70vh;
+            background-image: url("https://www.foodandwine.com/thmb/CesSP0thveMR9x5zq1r1O51gPOE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/QUICK-DILL-PICKLES-FT-MAG-RECIPE-0825-dea1519be45f48b59ede437888dc36a3.jpg");
         }
-        .store {
-            margin-right: auto;
+        /*The text below the image*/
+        #welcome {
+            width: auto;
+            height: 30vh;
+            background-color: darkolivegreen;
+            color: aliceblue;
+            text-align: center;
         }
-        .about {
-            margin-right: auto;
+        h1 {
+            margin-top: 0;
+            padding: 0.5rem;
+            font-size: 3rem;
         }
-        .help {
-            margin-right: auto;
-        }
-        .contact {
-            margin-right: auto;
-        }
-        /*placeholder*/
-        #paragraph {
-
+        p {
+            border: 100rem;
+            font-size: 1.5rem;
         }
     </style>
 </head>
 <body>
     <div id="navbar">
-        <a href="index.html" class="title">Pickled Thoughts</a>
-        <a href="https://kleinspickle.com/" class="home">Home</a>
+        <a href="index.html" class="title">Pickless United</a>
+        <a href="index.html" class="home">Home</a>
         <a href="#" class="store">Store</a>
         <a href="#" class="about">About Us</a>
         <a href="#" class="help">Help</a>
         <a href="#" class="contact">Contact</a>
+    </div>
+    <div id="image"></div>
+    <div id="welcome">
+        <h1>WELCOME!</h1>
+        <p>We are the Pickles United, a company solely focused on selling pickled products! Our partners are Otter Things and The Pickle Potion!</p>
     </div>
 </body>
 </html>
