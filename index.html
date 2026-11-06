@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Over+the+Rainbow&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Over+the+Rainbow&display=swap" rel="stylesheet">
     <style>
         body {
             margin: 0;
@@ -15,17 +18,22 @@
             background-color: #8AA141;
         /*navigation bar code*/
         }
-        #navbar {
+        .navbar {
             background-color: gainsboro;
             width: 100%;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-size: 20px;
+            font-size: 22.5px;
+            font-family: Fuzzy Bubbles;
             display: flex;
             flex-direction: row;
             padding: 0.5rem;
             position: fixed;
         }
+        .navbar a:hover {
+            color: rgb(82, 189, 66);
+            transform: scale(1.15);
+        }
         .title, .home, .store, .about, .help, .contact {
+            text-decoration: none;
             color: green;
             align-content: center;
             margin-right: auto;
@@ -37,43 +45,49 @@
             font-family: Over the Rainbow;
         }
             /*image*/
-        #image {
+        .image {
             width: auto;
             height: 70vh;
             background-image: url("https://www.foodandwine.com/thmb/CesSP0thveMR9x5zq1r1O51gPOE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/QUICK-DILL-PICKLES-FT-MAG-RECIPE-0825-dea1519be45f48b59ede437888dc36a3.jpg");
         }
         /*The text below the image*/
-        #welcome {
+        .welcome {
             width: auto;
             height: 30vh;
             background-color: darkolivegreen;
             color: aliceblue;
+            font-family: Fuzzy Bubbles;
             text-align: center;
         }
         h1 {
             margin-top: 0;
+            margin-bottom: 0;
             padding: 0.5rem;
             font-size: 3rem;
         }
         p {
-            border: 100rem;
+            margin-top: 5px;
+            padding-left: 150px;
+            width: 75vw;
             font-size: 1.5rem;
         }
     </style>
 </head>
 <body>
-    <div id="navbar">
-        <a href="index.html" class="title">Pickless United</a>
+    <div class="navbar">
+        <a href="index.html" class="title">Pickolas United</a>
         <a href="index.html" class="home">Home</a>
         <a href="#" class="store">Store</a>
         <a href="#" class="about">About Us</a>
         <a href="#" class="help">Help</a>
         <a href="#" class="contact">Contact</a>
     </div>
-    <div id="image"></div>
-    <div id="welcome">
+    <div class="image"></div>
+    <div class="welcome">
         <h1>WELCOME!</h1>
-        <p>We are the Pickles United, a company solely focused on selling pickled products! Our partners are Otter Things and The Pickle Potion!</p>
+        <p>
+        We are Pickles United, a company solely focused on selling pickled products! Our partners are Otter Things and The Pickle Potion!
+        </p>
     </div>
 </body>
 </html>
