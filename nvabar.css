@@ -1,0 +1,26 @@
+        .navbar {
+            background-color: gainsboro;
+            width: 100%;
+            font-size: 22.5px;
+            font-family: Fuzzy Bubbles;
+            display: flex;
+            flex-direction: row;
+            padding: 0.5rem;
+            position: fixed;
+        }
+        .navbar a:hover {
+            color: rgb(82, 189, 66);
+            transform: scale(1.15);
+        }
+        .title, .home, .store, .about, .help, .contact {
+            text-decoration: none;
+            color: green;
+            align-content: center;
+            margin-right: auto;
+        }
+        .title {
+            margin-left: 20px;
+            margin-right: 25rem;
+            font-size: 2rem;
+            font-family: Over the Rainbow;
+        }
