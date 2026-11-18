@@ -13,7 +13,7 @@
             color: rgb(82, 189, 66);
             transform: scale(1.15);
         }
-        .title, .home, .store, .about, .help, .contact {
+        .title, .home, .store, .about, .contact {
             text-decoration: none;
             color: green;
             align-content: center;
