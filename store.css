@@ -1,3 +1,4 @@
+    /*this was formerly shop.css but i made mistake and it was supposed to be store.css*/
     body {
         margin: 0;
         padding: 0;
@@ -31,7 +32,7 @@
         gap: 30px;
     }
         .shop_child {
-            background-image: url('https://github.com/Postochus/Postochus.github.io/blob/main/now-make-the-cup-a-glass-jar.png?raw=true');
+            background-image: url('logo.png');
             display: flex;
             flex-direction: column;
             justify-content: flex-end;

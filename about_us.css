@@ -1,0 +1,66 @@
+    /*first div*/
+    .image {
+        width: auto;
+        height: 72.5vh;
+        background-image: url("https://i0.wp.com/thelifeofafarmer.com/wp-content/uploads/2024/09/DSC_9890-104_websize.jpg?ssl=1");
+        background-size: cover;
+        background-position-x: 10px;
+        font-size: 3rem;
+        text-align: center;
+        padding-top: 175px;
+        font-family: fuzzy bubbles;
+        color: aliceblue;
+    }
+    .about-container {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        gap: 50px; 
+        margin: 100px 5vw; 
+    }
+    .portrait {
+        width: 25vw;
+        height: 500px;
+        background-color: white;
+        border-style: solid;
+        border-color: darkolivegreen;
+        border-radius: 10%;
+        border-width: 10px;
+        background-position: center;
+        background-image: url("https://img1.wsimg.com/isteam/ip/34bda2a7-d90c-40a1-bf74-76295732de70/blob-00ba016.png/:/cr=t:0%25,l:16.66%25,w:66.68%25,h:100%25/rs=w:600,h:600,cg:true");
+    }
+    .intro {
+        width: 60vw;
+        height: 40vh;
+        background-color: #edddc2;
+        border-width: 10px;
+        border-style: solid;
+        border-color: darkolivegreen;
+        font-family: fuzzy bubbles;
+        font-size: 25px;
+        text-align: justify;
+        font-weight: bold;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .mission {
+        width: 65vw;
+        height: 35vh;
+        background-color: #edddc2;
+        border-width: 10px;
+        border-style: solid;
+        border-color: darkolivegreen;
+        font-family: fuzzy bubbles;
+        margin-left: 250px;
+        text-align: center;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+    }
+    .mission h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .mission p {
+        font-size: 20px;
+        padding: 10px 20px 20px 20px;
+    }
