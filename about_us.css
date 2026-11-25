@@ -1,7 +1,7 @@
     /*first div*/
     .image {
         width: auto;
-        height: 100vh;
+        height: 72.5vh;
         background-image: url("https://i0.wp.com/thelifeofafarmer.com/wp-content/uploads/2024/09/DSC_9890-104_websize.jpg?ssl=1");
         background-size: cover;
         background-position-x: 10px;
@@ -49,7 +49,8 @@
     }
     .mission {
         width: 65vw;
-        height: 32vh;
+        min-height: 32vh;
+        padding: 20px;
         background-color: #edddc2;
         border-width: 10px;
         border-style: solid;
@@ -68,8 +69,62 @@
         font-size: 20px;
         padding: 0px 20px 20px 20px;
     }
-    .partners {
-        width: 30vw;
-        height: 30px;
-        background-color: red;
+    .logoinf {
+        width: 230px;
+        height: 230px;
+        background-color: rgb(234,255,187);
+        box-shadow: 10px 10px 50px gray;
+        border-radius: 3rem;
+        flex: 0 0 auto;
+    }
+    .logoinf img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 3rem;
+    }
+    .content-container3 {
+    width: 65vw;
+    min-height: 32vh;
+    background-color: #edddc2;
+    border: 10px solid darkolivegreen;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    margin: 0 auto 50px auto;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    }
+
+        .content-container3 h1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        }
+
+        .content-container3 p {
+        font-size: 20px;
+        }
+    .inf-scr-container {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        padding: 40px 0;
+    }
+    .infscrtrk {
+        display: flex;
+        width: max-content;
+        animation: infscr 15s linear infinite;
+    }
+    .inf-group {
+        display: flex;
+        gap: 20px;
+        padding-right: 20px;
+    }
+    @keyframes infscr {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-50%);
+        }
     }
