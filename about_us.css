@@ -31,7 +31,7 @@
     }
     .intro {
         width: 60vw;
-        height: 40vh;
+        height: 30vh;
         background-color: #edddc2;
         border-width: 10px;
         border-style: solid;
@@ -40,8 +40,8 @@
         font-size: 25px;
         text-align: justify;
         font-weight: bold;
-        box-sizing: border-box;
         padding: 20px;
+        box-sizing: border-box;
     }
     .anotha_container {
         align-items: center;
@@ -122,6 +122,9 @@
         display: flex;
         width: max-content;
         animation: infscr 15s linear infinite;
+    }
+    .infscrtrk:hover {
+        animation-play-state: paused;
     }
     .inf-group {
         display: flex;

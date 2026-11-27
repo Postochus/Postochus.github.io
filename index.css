@@ -6,6 +6,7 @@
         }
         /*The text below the image*/
         .welcome {
+            padding-top: 30px;
             width: auto;
             height: 30vh;
             background-color: darkolivegreen;
