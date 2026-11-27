@@ -1,7 +1,7 @@
     /*first div*/
     .image {
         width: auto;
-        height: 72.5vh;
+        height: 75vh;
         background-image: url("https://i0.wp.com/thelifeofafarmer.com/wp-content/uploads/2024/09/DSC_9890-104_websize.jpg?ssl=1");
         background-size: cover;
         background-position-x: 10px;
@@ -98,7 +98,7 @@
     border: 10px solid darkolivegreen;
     font-family: "Fuzzy Bubbles", sans-serif;
     margin: 0 auto 50px auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     box-sizing: border-box;
     }
