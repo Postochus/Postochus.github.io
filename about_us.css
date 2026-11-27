@@ -83,9 +83,17 @@
         object-fit: cover;
         border-radius: 3rem;
     }
+    .logoinf:hover {
+        transform: scale(1.1);
+        transition: transform 0.2s ease-in-out;
+    }
+    .logoinf:active {
+        transform: scale(0.9);
+        transition: transform 0.1s ease-in-out;
+    }
     .content-container3 {
-    width: 65vw;
-    min-height: 32vh;
+    width: 80vw;
+    min-height: 15vh;
     background-color: #edddc2;
     border: 10px solid darkolivegreen;
     font-family: "Fuzzy Bubbles", sans-serif;
@@ -94,7 +102,6 @@
     text-align: center;
     box-sizing: border-box;
     }
-
         .content-container3 h1 {
         font-size: 30px;
         font-weight: bold;
@@ -108,7 +115,8 @@
         width: 100vw;
         display: flex;
         flex-direction: row;
-        padding: 40px 0;
+        padding: 20px 0;
+        overflow-x: hidden;
     }
     .infscrtrk {
         display: flex;
